@@ -23,14 +23,14 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: () => import ('./views/home.vue')
+      component: () => import ('@/views/home.vue')
     },
 
     // About (關於我)
     {
       path: '/about',
       name: 'About',
-      component: () => import ('./views/about.vue')
+      component: () => import ('@/views/about.vue')
     },
   ]
 })
